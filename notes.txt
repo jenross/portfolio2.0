@@ -12,5 +12,24 @@ Photo by Pineapple Supply Co. on Unsplash (pineapples)
 
 Photo by manu schwendener on Unsplash (blue ocean)
 
-text center for h1
-take off container-fluid?
+Photo by César Couto on Unsplash (blue-pink sky gradient)
+
+Photo by dylan nolte on Unsplash (peach)
+
+Photo by Ryan Stone on Unsplash (pop culture museum)
+
+Photo by Joe Cox on Unsplash (blue wood)
+
+Photo by Joshua Bartell on Unsplash (dark wood)
+
+background: url('../images/dark-wood-background.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+Photo by Gabriele Garanzelli on Unsplash (timelapse stars)
+
+Photo by Michael Benz on Unsplash (dark plant)
+
+Photo by Denise Bossarte on Unsplash (orange red)

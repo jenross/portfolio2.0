@@ -2,17 +2,29 @@
     box-sizing: border-box; 
 }
 
+body {
+    background:#E5D45C;
+    font-family: 'Poppins', sans-serif;
+}  
+
+.navbar {
+    background-color: rgba(242, 242, 242, 0.5)!important;
+    height: 95px; 
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px; 
+}
+
 .container-fluid {
     position: relative; 
 }
 
 img {
     display: block; 
+    opacity: 0.8; 
 }
-
-/* #name-header {
-    align-self: center!important; 
-} */
 
 .card:hover {
     cursor:pointer; 
@@ -28,7 +40,7 @@ img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: white;
+    background-color:#FFF6B4;
 }
 
 .card-img-overlay:hover {
@@ -48,6 +60,10 @@ img {
     margin-top: 20px; 
     font-size: 18px; 
     text-align: center; 
+}
+
+.text-muted {
+    color: black!important; 
 }
 /* 
 .btn-primary {
