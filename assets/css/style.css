@@ -10,10 +10,12 @@ img {
     display: block; 
 }
 
+/* #name-header {
+    align-self: center!important; 
+} */
+
 .card:hover {
     cursor:pointer; 
-    /* opacity: 0.3;
-    transition: .5s ease;  */
 }
 
 .card-img-overlay {
@@ -29,13 +31,17 @@ img {
     background-color: white;
 }
 
-.container-fluid:hover .card-img-overlay {
+.card-img-overlay:hover {
     opacity: 1;
 }
 
+/* .card-img-overlay:hover .card-title {
+    
+} */
+
 .card-title {
     font-size: 28px; 
-    text-align: center; 
+    text-align: center;  
 }
 
 .card-subtitle {

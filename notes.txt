@@ -12,3 +12,5 @@ Photo by Pineapple Supply Co. on Unsplash (pineapples)
 
 Photo by manu schwendener on Unsplash (blue ocean)
 
+text center for h1
+take off container-fluid?
