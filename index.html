@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jen Ross</title>
+    <meta name="author" content="Jennifer Ross">
+    <meta name="description" content="I'm Jennifer Ross, a full-stack developer. Check out my work and say hello.">
+    <title>Jennifer Ross</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/JR Logo-01.png" type="image/png">
 </head>
-<body>
-    
+<body class="d-flex flex-column h-100">
+    <main role="main" class="flex-shrink-0">
+        <!--Navbar-->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Work</a>
+        </nav>
+        <!--Navbar-->
+
+        <!--Portfolio-->  
+        <div id="gallery" class="container-fluid mt-3">
+            <!--First row-->
+            <div class="row">
+                <div class="card-group">
+                    <!--Shows in Town-->
+                    <div class="card">
+                        <img src="assets/images/project-search.png" alt="Shows in Town App" class="card-img-top">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Shows in Town</h3>
+                                <h4 class="card-subtitle">HTML, CSS, JS, jQuery</h4>
+                                <a class="btn btn-primary" id="shows-in-town" href="#" role="button">Learn more</a>
+                            </div>
+                    </div>
+                    <!--Train Time-->
+                    <div class="card">
+                        <img src="assets/images/train-time.png" alt="Train Time App" class="card-img-top">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Train Time</h3>
+                                <h4 class="card-subtitle">HTML, CSS, JS, jQuery, Firebase</h4>
+                                <a class="btn btn-primary" id="train-time" href="#" role="button">Learn more</a>
+                            </div>
+                    </div>
+                    <!--Giftastic-->
+                    <div class="card">
+                        <img src="assets/images/giftastic.png" alt="Giftastic App" class="card-img-top">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Giftastic</h3>
+                                <h4 class="card-subtitle">HTML, CSS, JS, jQuery</h4>
+                                <a class="btn btn-primary" id="giftastic" href="#" role="button">Learn more</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+                   
+        </div>  
+        
+    </main>
+    <!-- Footer -->
+    <footer role="contentinfo" class="footer mt-auto mx-auto py-3">
+        <div class="container">
+            <span class="text-muted">Jennifer Ross © 2019</span>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 </html>
