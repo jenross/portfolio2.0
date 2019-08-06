@@ -2,4 +2,48 @@
     box-sizing: border-box; 
 }
 
+.container-fluid {
+    position: relative; 
+}
 
+img {
+    display: block; 
+}
+
+.card:hover {
+    cursor:pointer; 
+    /* opacity: 0.3;
+    transition: .5s ease;  */
+}
+
+.card-img-overlay {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.container-fluid:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 28px; 
+    text-align: center; 
+}
+
+.card-subtitle {
+    margin-top: 20px; 
+    font-size: 18px; 
+    text-align: center; 
+}
+/* 
+.btn-primary {
+   top: 20px;  
+} */
