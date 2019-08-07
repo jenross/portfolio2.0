@@ -3,7 +3,7 @@
 }
 
 body {
-    background:#E5D45C;
+    background:#F9EB84;
     font-family: 'Poppins', sans-serif;
 }  
 
@@ -26,6 +26,10 @@ img {
     opacity: 0.8; 
 }
 
+.card {
+    border: 2px groove darkgrey;
+}
+
 .card:hover {
     cursor:pointer; 
 }
@@ -40,7 +44,7 @@ img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color:#FFF6B4;
+    background-color:#FDF7D0;
 }
 
 .card-img-overlay:hover {
@@ -64,6 +68,11 @@ img {
 
 .text-muted {
     color: black!important; 
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
 }
 /* 
 .btn-primary {
