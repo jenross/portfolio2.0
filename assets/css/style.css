@@ -20,9 +20,10 @@ body {
     position: relative; 
 }
 
-img {
-    display: block; 
+.card-img-top {
+    /* display: block;  */
     opacity: 0.8; 
+    width: 100%; 
 }
 
 .card {
@@ -39,8 +40,8 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
     opacity: 0;
     transition: .5s ease;
     background-color:rgba(242, 218, 96, 0.9);
@@ -48,12 +49,12 @@ img {
 
 .card-img-overlay:hover {
     opacity: 1;
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
 }
 
 .card-title {
-    font-size: 28px; 
+    /* font-size: 28px;  */
     text-align: center; 
     /* margin-top: 30px;   */
 }
@@ -70,8 +71,7 @@ img {
 }
 
 .card-subtitle {
-    /* margin-top: 20px;  */
-    font-size: 18px; 
+    /* font-size: 18px;  */
     text-align: center;
     color: green;
 }
@@ -90,12 +90,11 @@ img {
     float: right!important; 
 }
 
-/* .navbar-collapse {
-    float: right!important; 
-} */
-
-/* @media only screen and (max-width: 640px) {
-    .signature {
-        margin-top: 0;  
+/* .card-deck {
+    @include media-breakpoint-only(md) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(sm) {
+      column-count: 1;
     }
   } */
