@@ -9,11 +9,11 @@ body {
 
 .navbar {
     background-color: rgba(242, 218, 96, 0.9)!important;
-    height: 95px; 
+    height: auto;  
 }
 
 .signature {
-    height: 85px; 
+    height: 85px;  
 }
 
 .container-fluid {
@@ -34,13 +34,13 @@ img {
 }
 
 .card-img-overlay {
-    position: absolute; 
+    /* position: absolute;  */
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     opacity: 0;
     transition: .5s ease;
     background-color:rgba(242, 218, 96, 0.9);
@@ -48,12 +48,14 @@ img {
 
 .card-img-overlay:hover {
     opacity: 1;
+    height: auto;
+    width: auto;
 }
 
 .card-title {
     font-size: 28px; 
     text-align: center; 
-    margin-top: 30px;  
+    /* margin-top: 30px;   */
 }
 
 .project-link {
@@ -68,9 +70,10 @@ img {
 }
 
 .card-subtitle {
-    margin-top: 20px; 
+    /* margin-top: 20px;  */
     font-size: 18px; 
-    text-align: center; 
+    text-align: center;
+    color: green;
 }
 
 .text-muted {
@@ -82,20 +85,17 @@ img {
     width: 40px;
 }
 
-.nav-left {
+.link-right {
     font-size: 20px; 
+    float: right!important; 
 }
 
-/* .social {
-    list-style-type: none!important; 
-    display: inline-block!important; 
+/* .navbar-collapse {
+    float: right!important; 
 } */
 
-/* .social-container {
-    display: inline-block; 
-} */
-/* @media only screen and (max-width: 992px) {
-    #contact {
-
+/* @media only screen and (max-width: 640px) {
+    .signature {
+        margin-top: 0;  
     }
   } */

@@ -15,27 +15,27 @@
 </head>
 <body class="d-flex flex-column h-100">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/signature.png" alt="Jennifer Ross signature" class="d-inline-block signature align-top">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-start" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
-                <a class="nav-left nav-link" href="index.html">Work <span class="sr-only">(current)</span></a>
+                <a class="link-right nav-link" href="index.html">Work <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-left nav-link" href="about.html">About</a>
+                <a class="link-right nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-left nav-link" href="blog.html">Blog</a>
+                <a class="link-right nav-link" href="blog.html">Blog</a>
                 </li>
             </ul>
         </div>
 
-        <div class="container" id="name-header">
-            <img src="assets/images/signature.png" alt="Jennifer Ross signature" class="mx-auto navbar-brand signature">
-        </div>
     </nav>
     <!--Navbar-->
     <main role="main" class="flex-shrink-0">
@@ -43,14 +43,14 @@
         <div id="gallery" class="container-fluid mt-5">
             <!--First row-->
             <div class="row">
-                <div class="card-deck mt-2 mx-2">
+                <div class="card-deck mx-2">
                     <!--Shows in Town-->
                     <div class="card">
                         <img src="assets/images/project-search.png" alt="Shows in Town App" class="card-img-top">
-                            <div class="card-img-overlay text-center">
+                            <div class="card-img-overlay d-flex flex-column justify-content-center">
                                 <h3 class="card-title shows-in-town"><a href="https://jenross.github.io/event-search/" target="_blank" class="project-link">Shows in Town</a></h3>
                                 <h4 class="card-subtitle shows-in-town">HTML, CSS, JS, jQuery</h4>
-                                <a class="repo-link" href="https://github.com/jenross/event-search" target="_blank"><img src="assets/images/github-icon.png" alt="Jennifer Ross Github" class="icon icon-portfolio mx-auto mt-3"></a>
+                                <a class="repo-link d-flex" href="https://github.com/jenross/event-search" target="_blank"><img src="assets/images/github-icon.png" alt="Jennifer Ross Github" class="icon icon-portfolio mx-auto"></a>
                             </div>
                     </div>
                     <!--Train Time-->
