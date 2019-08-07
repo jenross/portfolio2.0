@@ -87,6 +87,37 @@ body {
     float: right!important; 
 }
 
+.about-wrapper {
+    height: auto;
+    max-width: 960px;
+    /* border: 2px solid #444; */
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+    padding-bottom: 20px;
+}
+
+.cartoon-me {
+  width: 225px;
+  float: left;
+  margin: 10px 15px 10px 10px; 
+}
+
+.about-wrapper p {
+    line-height: normal;
+    padding: 15px;
+}
+
+.about-wrapper p a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.about-wrapper p a:hover {
+    color: #222;
+}
+
 @media only screen and (max-width: 938px) and (min-width: 575px) {
     .card-title {
         font-size: 15px; 
