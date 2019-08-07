@@ -21,7 +21,6 @@ body {
 }
 
 .card-img-top {
-    /* display: block;  */
     opacity: 0.8; 
     width: 100%; 
 }
@@ -35,7 +34,6 @@ body {
 }
 
 .card-img-overlay {
-    /* position: absolute;  */
     top: 0;
     bottom: 0;
     left: 0;
@@ -54,9 +52,8 @@ body {
 }
 
 .card-title {
-    /* font-size: 28px;  */
+    font-size: 28px; 
     text-align: center; 
-    /* margin-top: 30px;   */
 }
 
 .project-link {
@@ -71,7 +68,7 @@ body {
 }
 
 .card-subtitle {
-    /* font-size: 18px;  */
+    font-size: 18px; 
     text-align: center;
     color: green;
 }
@@ -90,11 +87,28 @@ body {
     float: right!important; 
 }
 
-/* .card-deck {
-    @include media-breakpoint-only(md) {
-      column-count: 2;
+@media only screen and (max-width: 938px) and (min-width: 575px) {
+    .card-title {
+        font-size: 15px; 
     }
-    @include media-breakpoint-only(sm) {
-      column-count: 1;
+
+    .card-subtitle {
+        font-size: 12px; 
     }
-  } */
+
+    .icon-portfolio {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+/* @media only screen and (min-width: 575px) {
+    .card-title {
+        font-size: 28px; 
+    }
+
+    .card-subtitle {
+        font-size: 18px; 
+    }
+} */
