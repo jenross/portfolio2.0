@@ -3,19 +3,20 @@
 }
 
 body {
-    background:#F9EB84;
+    background: #FEFBEB;
     font-family: 'Poppins', sans-serif;
 }  
 
 .navbar {
-    background-color: rgba(242, 242, 242, 0.5)!important;
+    background-color: rgba(242, 218, 96, 0.9)!important;
     height: 95px; 
 }
 
-h1 {
-    font-family: 'Satisfy', cursive;
-    font-size: 40px; 
+.signature {
+    height: 80px; 
 }
+
+
 
 .container-fluid {
     position: relative; 
@@ -44,16 +45,12 @@ img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color:#FDF7D0;
+    background-color:rgba(242, 218, 96, 0.9);
 }
 
 .card-img-overlay:hover {
     opacity: 1;
 }
-
-/* .card-img-overlay:hover .card-title {
-    
-} */
 
 .card-title {
     font-size: 28px; 
