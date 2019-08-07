@@ -52,7 +52,8 @@ img {
 
 .card-title {
     font-size: 28px; 
-    text-align: center;  
+    text-align: center; 
+    margin-top: 30px;  
 }
 
 .project-link {
@@ -81,6 +82,9 @@ img {
     width: 40px;
 }
 
+.nav-left {
+    font-size: 20px; 
+}
 /* @media only screen and (max-width: 992px) {
     #contact {
 
